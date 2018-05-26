@@ -2,10 +2,10 @@ top = open('templates/top.html').read()
 bottom = open('templates/bottom.html').read()
 
 index = open('content/index.html').read()
-about = open('content/index.html').read()
-contact = open('content/index.html').read()
-posts = open('content/index.html').read()
-projects = open('content/index.html').read()
+about = open('content/about.html').read()
+contact = open('content/contact.html').read()
+posts = open('content/posts.html').read()
+projects = open('content/projects.html').read()
 
 combine_index = top + index + bottom
 combine_about = top + about + bottom
